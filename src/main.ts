@@ -12,7 +12,7 @@ document.addEventListener("DOMContentLoaded", () => {
       const password = (document.getElementById("password") as HTMLInputElement).value;
 
       try {
-          const response = await fetch("http://localhost:3000/api/data", {
+          const response = await fetch("https://yaaaaa.onrender.com", {
               method: "POST",
               headers: {
                   "Content-Type": "application/json",
